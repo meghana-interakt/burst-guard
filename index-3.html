@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Burst Gurad</title>
+
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
+<link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
+<link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
+
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body class="meghana3">
+
+<div class="page-wrapper color-scheme-purple meghana2">
+    
+    <!-- Main Header-->
+    <header class="main-header header-style-three meghana">
+
+        <!-- Main box -->
+        <div class="main-box">
+            <div class="container-fluid">
+                <div class="menu-box menu-box1">
+                    <div class="logo"><a href="index.html"><img src="css/images/interakt.png" alt="" title="" ></a></div>
+
+                    <!--Nav Box-->
+                    <div class="nav-outer">
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li class="current">
+                                        <a href="#"><span>Tickets</span></a>
+                                        
+                                    </li>
+                                    <li><a href="about.html">Buy</a></li>
+                                    <!-- <li class="dropdown">
+                                        <a href="#">Services</a>
+                                        <ul>
+                                            <li><a href="">Website/Graphic Designing</a></li>
+                                            <li><a href="services/mob">Mobile Application Development</a></li>
+                                            <li><a href="services/ecommerce.html">Ecommerce Development</a></li>
+                                            <li><a href="services/digital_marketing.html">Digital Marketing</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <li><a href="products.html">Order</a></li>
+                                    <li><a href="portfolio.html">My Books</a></li>
+                                    <li><a href="gallery.html">Result</a></li>
+                                    <li><a href="blog.html">Account</a></li>
+                                    <!-- <li><a href="contact.html">Contact</a></li> -->
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- Main Menu End-->
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="main-box">
+                <!--Keep This Empty / Menu will come through Javascript-->
+            </div>
+        </div><!-- End Sticky Menu -->
+
+        <!-- Mobile Header -->
+        <div class="mobile-header">
+            <div class="logo"><a href="index.html"><img src="images/logo-3.png" alt="" title="" ></a></div>
+
+            <!--Nav Box-->
+            <div class="nav-outer clearfix">
+                <!--Keep This Empty / Menu will come through Javascript-->
+            </div>
+        </div>
+
+        <!-- Mobile Sticky Header -->
+        <div class="mobile-sticky-header">
+            <div class="logo"><a href="index.html"><img src="images/logo-3.png" alt="" title="" ></a></div>
+
+            <!--Nav Box-->
+            <div class="nav-outer clearfix">
+                <!--Keep This Empty / Menu will come through Javascript-->
+            </div>
+        </div>
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <span class="mobile-menu-back-drop"></span>
+            <div class="menu-outer">
+                <nav class="menu-box">
+                    <div class="nav-logo"><a href="index.html"><img src="images/interakt.png" alt="" title="" ></a></div><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </nav>
+
+                <div class="menu-search">
+                    <form method="post" action="blog-checkerboard.html">
+                        <div class="form-group">
+                            <input type="text" class="input" name="search-field" value="" placeholder="Search..." required="">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div> 
+        </div><!-- End Mobile Menu -->
+
+        <!-- Header Search -->
+        <div class="search-popup">
+            <span class="search-back-drop"></span>
+            
+            <div class="search-inner">
+                <div class="auto-container">
+                    <div class="upper-text">
+                        <div class="text">Search for anything.</div>
+                        <button class="close-search"><span class="fa fa-times"></span></button>
+                    </div>
+
+                    <form method="post" action="blog-checkerboard.html">
+                        <div class="form-group">
+                            <input type="search" name="search-field" value="" placeholder="Search..." required="">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Search -->
+
+        <!-- Sidebar Cart  -->
+        <div class="sidebar-cart">
+            <span class="cart-back-drop"></span>
+            <div class="shopping-cart">
+                <div class="cart-header">
+                    <div class="title">MY BAG (3)</div>
+                    <button class="close-cart"><span class="flaticon-multiply"></span></button>
+                </div>
+                <ul class="shopping-cart-items">
+                    <li class="cart-item">
+                        <img src="images/resource/products/item-thumb-1.jpg" alt="#" class="thumb" />
+                        <span class="item-name">Healthcare book</span>
+                        <span class="item-quantity">1 x <span class="item-amount">$21.57</span></span>
+                        <a href="shop-single.html" class="product-detail"></a>
+                        <button class="remove">Remove</button>
+                    </li>
+
+                    <li class="cart-item">
+                        <img src="images/resource/products/item-thumb-2.jpg" alt="#" class="thumb"  />
+                        <span class="item-name">Politics magazine</span>
+                        <span class="item-quantity">1 x <span class="item-amount">$35.24</span></span>
+                        <a href="shop-single.html" class="product-detail"></a>
+                        <button class="remove">Remove</button>
+                    </li>
+
+                    <li class="cart-item">
+                        <img src="images/resource/products/item-thumb-3.jpg" alt="#" class="thumb"  />
+                        <span class="item-name">Company calendar</span>
+                        <span class="item-quantity">1 x <span class="item-amount">$35.24</span></span>
+                        <a href="shop-single.html" class="product-detail"></a>
+                        <button class="remove">Remove</button>
+                    </li>
+                </ul>
+
+                <div class="cart-footer">
+                    <div class="shopping-cart-total"><strong>Subtotal:</strong> $97.00</div>
+                    <a href="cart.html" class="theme-btn">View Cart</a>
+                    <a href="checkout.html" class="theme-btn">Checkout</a>
+                </div>
+            </div> <!--end shopping-cart -->
+        </div>
+        <!-- End Sidebar Cart  -->
+    </header>
+    <!--End Main Header -->
+    
+    <!--Main Slider-->
+    <div class="head-img">
+        <img src="images/background/M1.jpg" />
+    </div>
+    <!--End Main Slider-->
+
+    <!-- News Section -->
+    <section class="below-head-section">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="image-box meghana-image-box">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/MANILA.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <div class="meghana-date2">
+                                <h1 class="date">Manila</h1>
+                                <h4 class="date">Buy Now</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="image-box meghana-image-box">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/MANILA.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <div class="meghana-date2">
+                                <h1 class="date">Monaco</h1>
+                            <h4 class="date">Buy Now</h4>
+                            </div>  
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-4">
+                    <div class="image-box meghana-image-box">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/seoul.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <div class="meghana-date2">
+                                <h1 class="date">Seoul</h1>
+                            <h4 class="date">Buy Now</h4>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="image-box meghana-image-box">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/MANILA.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <div class="meghana-date2">
+                                <h1 class="date">Las Vegas</h1>
+                            <h4 class="date">Buy Now</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="image-box meghana-image-box">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/MANILA.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <div class="meghana-date2">
+                                <h1 class="date">Macao</h1>
+                            <h4 class="date">Buy Now</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-4">
+                    <div class="image-box meghana-image-box">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/MANILA.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <div class="meghana-date2">
+                                <h1 class="date">Singapore</h1>
+                            <h4 class="date">Buy Now</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End News Section -->
+
+    <!-- About Section -->
+    <section class="services-section">
+        <div class="auto-container">
+            <div class="text-center">
+                <h2>ABOUT "BURST GAURD"</h2>
+                <br/>
+                <div class="">
+                    53棋ミタセコ関岩篇残おそ語育で村整ネヘヨモ会戦ワイソホ中東組ゃふ人行コマホウ取表べ
+                    <br/>
+                    ク出義儀断社がょ。
+                    <br/>
+                    見せ年5闘遍タチケホ記業数げう最秋こづ上野ルフ併運ラ稿代共ヘリアツ写伝い年済っせ周同応
+                    <br/>
+                    ぐゅぶよ朝政船城わフぱり転晴宣獲ぶやの。9上ソカアル業放げクゅけ問国そぎ器科ソワヘ
+                    <br/>
+                    モ年神ヨリアユ続大ネ名論チタサ室物シリセフ東訪て表月ごり
+                    <br/>
+                    ド家検ルラ局応アウクヱ上恵ーぼイ続9約うトに碁況締困た。
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End About Section -->
+
+    <!-- News Section -->
+    <section class="services-section">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="image-box meghana-image-box2">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/MANILA.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <h5 class="date">Manila</h5>
+                            <div class="meghana-date2">
+                                <h6 class="date">Buy Now</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="image-box meghana-image-box2">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/MANILA.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <h5 class="date">Monaco</h5>
+                            <div class="meghana-date2">
+                                <h6 class="date">Buy Now</h6>
+                            </div>  
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-2">
+                    <div class="image-box meghana-image-box2">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/seoul.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <h5 class="date">Seoul</h5>
+                            <div class="meghana-date2">
+                                <h6 class="date">Buy Now</h6>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="image-box meghana-image-box2">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/MANILA.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <h5 class="date">Las Vegas</h5>
+                            <div class="meghana-date2">
+                                <h6 class="date">Buy Now</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="image-box meghana-image-box2">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/MANILA.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <h5 class="date">Macao</h5>
+                            <div class="meghana-date2">
+                                <h6 class="date">Buy Now</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-2">
+                    <div class="image-box meghana-image-box2">
+                        <figure class="image">
+                            <a href="#">
+                                <img src="images/areas/MANILA.jpg" alt="">
+                            </a>
+                        </figure>
+                        <div class="meghana-date">
+                            <h5 class="date">Singapore</h5>
+                            <div class="meghana-date2">
+                                <h6 class="date">Buy Now</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End News Section -->
+
+    <!-- Call Back Section -->
+    <section class="services-section">
+        <div class="">
+            <div class="sec-title text-center">
+                <h2>HOW TO PLAY</h2>
+            </div>
+            
+        </div>
+        <div class="" style="display: flex; align-items: center; justify-content: center;">
+          <div class= "rectangle rectangle-3 " style="margin-left: -10%;">
+              <h5 style="margin-top: 3% ; text-align: left;"></h5>
+              <!-- <p style="color: white; text-align: left; ">Please login using the same email address as your pocket hash gaming wallet. <br>If you use a diffrent email address it will not be syncronized with your pocket wallet.</p> -->
+           </div>
+            <div class= "rectangle rectangle-4">
+            
+            <h5 style="margin-top: 3% ; text-align: left;">1. User Registration</h5>
+            <p style="color: white; text-align: left;">Please login using the same email address as your pocket hash gaming wallet. <br>If you use a diffrent email address it will not be syncronized with your pocket wallet.</p>
+            </div>
+            <div class= "rectangle rectangle-3" style="margin-right: -10%;">
+            
+            <h5 style="margin-top: 3% ; text-align: left;">1. User Registration</h5>
+            <p style="color: white; text-align: left;">Please login using the same email address as your pocket hash gaming wallet. <br>If you use a diffrent email address it will not be syncronized with your pocket wallet.</p>
+            </div>
+
+        </div>
+        </section>
+         
+        
+        
+    </section>
+    <!--End Call Back Section -->
+
+    <!-- Call Back Section -->
+    <section class="services-section">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <h2>NEWS</h2>
+            </div>
+            <div class="news-list">
+                <ul>
+                   <li>
+                       <span>2021.02.01</span>
+                       <span>舟そはどか下誉撤ろ記純ツユ</span>
+                    </li> 
+                    <li>
+                        <span>2021.02.01</span>
+                        <span>舟そはどか下誉撤ろ記純ツユ</span>
+                     </li> 
+                     <li>
+                        <span>2021.02.01</span>
+                        <span>舟そはどか下誉撤ろ記純ツユ</span>
+                    </li> 
+                    <li>
+                        <span>2021.02.01</span>
+                        <span>舟そはどか下誉撤ろ記純ツユ</span>
+                    </li> 
+                    <li>
+                        <span>2021.02.01</span>
+                        <span>舟そはどか下誉撤ろ記純ツユ</span>
+                    </li> 
+                </ul>
+                <div class="text-right" style="margin-right: 25%; margin-top: 2%;">
+                    <button class="btn btn-outline-primary m-auto meghana-btn">
+                        READ MORE
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--End Call Back Section -->
+
+    <!-- Call Back Section -->
+    <section class="services-section">
+        <div class="auto-container">
+            <div class="text-center">
+                <img src="images/interakt.png" class="footer-logo" />
+                <div class="terms-div">
+                    <p>TERMS OF SERVICE</p>
+                    <p>PRIVACY POLICY</p>
+                </div>
+                <div class="lang-list">
+                    <p>EN</p>
+                    <p>CN</p>
+                    <p>JP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Call Back Section -->
+
+
+</div><!-- End Page Wrapper -->
+
+<!-- Scroll To Top -->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-arrow-up"></span></div>
+
+<script src="js/jquery.js"></script> 
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--Revolution Slider-->
+<script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="js/main-slider-script.js"></script>
+<!--Revolution Slider-->
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
