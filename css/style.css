@@ -10354,7 +10354,8 @@ My Code
 .rectangle{
 	background-color: black;
     border: 0.1px solid white;
-    /* margin-left: 16%; */
+    margin-left: 3%;
+	margin-right: 3%;
     text-align: center;
     padding: 2%;
     width: 800px;
@@ -10388,3 +10389,16 @@ My Code
 	margin-right: 5%;
 	width: 2500px;
 }
+.parent-rectangle{
+	display: flex;
+    /* margin: 4px 4px;
+    padding: 4px; */
+    /* background-color: #08c708; */
+    width: 100%;
+    overflow-x: clip;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
